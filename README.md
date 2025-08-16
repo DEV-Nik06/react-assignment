@@ -1,12 +1,72 @@
-# React + Vite
+# React Assignment - User Management (CRUD)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React.js project built with **Vite** as part of my assignment.  
+The application demonstrates **CRUD (Create, Read, Update, Delete)** operations with users using the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Fetch and display users in a table
+- Add new users with a form
+- Edit existing user details
+- Delete users from the list
+- Responsive UI design with clean layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React (Vite)**
+- **JavaScript (ES6+)**
+- **Axios / Fetch API**
+- **TailwindCSS** (for styling)
+- **JSONPlaceholder API**
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your app here – e.g. User Table, Add/Edit Form)
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/react-assignment.git
+
+# Navigate to project folder
+cd react-assignment
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+API Used
+
+This project uses the JSONPlaceholder API for mock user data.
+
+📂 Folder Structure
+
+    react-assignment/
+    ├── src/
+    │   ├── components/   # Reusable components (Table, Form, etc.)
+    │   ├── pages/        # Main pages (Home, Users)
+    │   ├── App.jsx       # Root component
+    │   └── main.jsx      # Entry point
+    ├── public/           # Static assets
+    ├── package.json
+    └── README.md
+
+Author
+
+Nikhil Yadav
+📧 yadavgr306@gmail.com
+🔗 https://www.linkedin.com/in/nikhil-yadav-287949251/
+```
