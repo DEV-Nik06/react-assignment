@@ -68,7 +68,11 @@ const ProductList = () => {
 
     if (sort === "lowToHigh") temp.sort((a, b) => a.price - b.price);
     else if (sort === "highToLow") temp.sort((a, b) => b.price - a.price);
-   
+    else if (sort === "categoryAsc")
+      temp.sort((a, b) => a.category.localeCompare(b.category));
+    else if (sort === "categoryDesc")
+      temp.sort((a, b) => b.category.localeCompare(a.category));
+
     setFiltered(temp);
   }, [debouncedSearch, sort, category, products]);
 

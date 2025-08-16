@@ -12,7 +12,8 @@ const SortOptions = ({ sort, setSort }) => {
         <option value="">Sort: Recommended</option>
         <option value="lowToHigh">Price: Low to High</option>
         <option value="highToLow">Price: High to Low</option>
-     
+        <option value="categoryAsc">Category: A → Z</option>
+        <option value="categoryDesc">Category: Z → A</option>
       </select>
       <div className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
         <ChevronDown size={18} />

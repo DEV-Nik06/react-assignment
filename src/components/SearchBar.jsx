@@ -1,10 +1,7 @@
 import React from "react";
 import { Search } from "lucide-react";
-import { useEffect, useState } from "react";
 
 const SearchBar = ({ search, setSearch }) => {
-    const [category, setCategory] = useState("");
-
   return (
     <div className="relative w-full sm:w-2/3">
       <input
@@ -14,11 +11,9 @@ const SearchBar = ({ search, setSearch }) => {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      
       <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
         <Search size={18} />
       </div>
-     
     </div>
   );
 };
