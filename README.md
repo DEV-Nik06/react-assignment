@@ -24,7 +24,7 @@ npm run dev
 
 API Used
 
-This project uses the JSONPlaceholder API for mock user data.
+This project uses the fakestoreapi API for mock user data.
 
 📂 Folder Structure
 
